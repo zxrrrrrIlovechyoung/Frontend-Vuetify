@@ -14,9 +14,12 @@
 
         <v-list density="compact" nav>
           <v-list-item prepend-icon="mdi-home-city" title="Home" to="/"></v-list-item>
+          <v-list-item prepend-icon="mdi-view-dashboard" title="Dashboard" to="/dashboard"></v-list-item>
           <v-list-item prepend-icon="mdi-account-cog" title="Settings"  to="/settings"></v-list-item>
           <v-list-item prepend-icon="mdi-poll" title="Analytics" to="/analytics"></v-list-item>
           <v-list-item prepend-icon="mdi-bookshelf" title="Books" to="/books"></v-list-item>
+          <v-list-item prepend-icon="mdi-store" title="Tienda" to="/tienda"></v-list-item>
+          <v-list-item prepend-icon="mdi-car" title="Carros" to="/carros"></v-list-item>
         </v-list>
     </v-navigation-drawer>
 
